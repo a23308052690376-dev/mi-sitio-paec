@@ -1,0 +1,26 @@
+<?php
+// Copy this file to config.php and fill in your credentials. DO NOT commit real credentials to a public repo.
+return [
+  'db' => [
+    'host' => 'localhost',
+    'name' => 'your_db_name',
+    'user' => 'your_db_user',
+    'pass' => 'your_db_pass'
+  ],
+  // Recommended: set your public site URL (without trailing slash), used for links
+  'site_url' => 'https://your-domain.com',
+  // Path to infographic file relative or absolute on the server
+  'infographic_path' => __DIR__ . '/infografia.pdf',
+  // Optional: SendGrid API key (preferred on hosts blocking SMTP). If set, the script will use SendGrid API.
+  'sendgrid_api_key' => '',
+  // SMTP settings (used if PHPMailer is available and sendgrid_api_key not set)
+  'smtp' => [
+    'host' => 'smtp.example.com',
+    'port' => 587,
+    'username' => 'smtp-user',
+    'password' => 'smtp-pass',
+    'secure' => 'tls',
+    'from_email' => 'no-reply@your-domain.com',
+    'from_name' => 'Mi Sitio'
+  ]
+];
