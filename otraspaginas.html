@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otras Páginas Interesantes</title>
+    <style>
+        /* ------------------- ESTILOS GENERALES ------------------- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* ------------------- CABECERA (HEADER) ------------------- */
+        header {
+            background-color: #007bff; /* Azul vibrante */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .header-content {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .lang-btn {
+            background: #ff7043;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .lang-btn:hover {
+            opacity: .9;
+        }
+
+        /* ------------------- CONTENEDOR PRINCIPAL ------------------- */
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        /* ------------------- CUADROS DE CONTENIDO ------------------- */
+        .paragraph {
+            display: flex; /* Habilita el layout de cajas flexibles */
+            justify-content: space-between; /* Espacio uniforme entre los cuadros */
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px; /* Esquinas redondeadas */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            padding: 20px;
+            width: 30%; /* Cada cuadro ocupa un poco menos de un tercio del espacio */
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s; /* Transiciones para el efecto "nice" */
+        }
+
+        /* Efecto al pasar el ratón */
+        .card:hover {
+            transform: translateY(-5px); /* Se levanta un poco */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            max-height: 150px; /* Limita la altura de la imagen */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        
+        .card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .card a {
+            display: inline-block;
+            background-color: #28a745; /* Botón verde */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #218838; /* Verde oscuro al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Explora Contenido Adicional</h1>
+            <p>Sitios web seleccionados que podrían ser de tu interés.</p>
+        </div>
+        <div class="nav-actions">
+            <a href="otraspaginasing.html" class="lang-btn">Change to English 🇺🇸</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <h2>Recursos de Aprendizaje 💡</h2>
+        
+        <div class="paragraph">
+            
+            <div class="card">
+                <img src="zairapage.png" alt="imagen 1">
+                <h3>Estilos de vida saludables</h3>
+                <p>Por: Zaira</p>
+                <a href="https://sweet-swan-5510dd.netlify.app" target="_blank">Ir al Sitio</a>
+            </div>
+
+            <div class="card">
+                <img src="" alt="Imagen 2">
+                <h3>Ejemplo 2</h3>
+                <p>Ejemplo 2</p>
+                <a href="" target="_blank">Ir al Sitio</a>
+            </div>
+
+            <div class="card">
+                <img src="" alt="Imagen 3">
+                <h3>Ejemplo 3</h3>
+                <p>Ejemplo 3</p>
+                <a href="https://www.nngroup.com/" target="_blank">Ir al Sitio</a>
+            </div>
+
+        </div> <hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+        <h2>Herramientas y Utilidades 🔧</h2>
+
+        <div class="paragraph">
+            
+            <div class="card">
+                <img src="https://via.placeholder.com/300x150?text=Iconos+Gratis" alt="Imagen de iconos">
+                <h3>Iconos y Recursos Gráficos</h3>
+                <p>Encuentra miles de iconos gratuitos y de alta calidad para tus proyectos.</p>
+                <a href="https://fontawesome.com/" target="_blank">Ir al Sitio</a>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x150?text=Colores+Web" alt="Imagen de paletas de color">
+                <h3>Generador de Paletas</h3>
+                <p>Crea combinaciones de colores armoniosas para el diseño de tu sitio web.</p>
+                <a href="https://colorhunt.co/" target="_blank">Ir al Sitio</a>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x150?text=API+Servicios" alt="Imagen de servidor">
+                <h3>Servicios de Cloud</h3>
+                <p>Documentación y guías sobre servicios de alojamiento y despliegue en la nube.</p>
+                <a href="https://aws.amazon.com/es/" target="_blank">Ir al Sitio</a>
+            </div>
+
+        </div> </div>
+
+</body>
+</html>

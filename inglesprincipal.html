@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Eating</title>
+    <style>
+    .header-container {
+        display: flex;
+        align-items: center;
+        gap: 250px;
+        padding: 5%;
+    }
+
+    .header-image {
+        width: 720px;
+        height: auto;
+    }
+    .main-content {
+        margin-top: 125px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #00ccff;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav-actions{display:flex;align-items:center;gap:12px}
+    .lang-btn{background:#ff7043;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none;font-weight:700}
+    .lang-btn:hover{opacity:.9}
+
+    /* Botón para volver a portada */
+    .home-btn{background:#4CAF50;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none;font-weight:700;margin-right:8px}
+    .home-btn:hover{opacity:.9}
+
+    .main-nav ul {list-style: none; padding: 0; margin: 0; display:flex}
+    .main-nav li {margin-left: 20px}
+    .main-nav a {text-decoration:none; color:white; font-weight:bold; padding:5px 10px}
+    .main-nav a:hover {color:#f1c40f}
+
+    #inicio {scroll-margin-top: 50vh}
+    #introduccion, #why-important, #topics, #benefits {scroll-margin-top: 250px}
+
+    p{font-size: 30px; font-family:'Times New Roman', Times, serif; text-align: justify}
+
+    /* Floating button */
+    .floating-btn{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        background: #0078d4;
+        color: #fff;
+        width: 56px;
+        height: 56px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        text-decoration: none;
+        font-size: 22px;
+        box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+        z-index: 2000;
+    }
+    .floating-btn:hover{background:#005a9e}
+    </style>
+</head>
+<body>
+<header>
+    <a href="https://cbtis269.edu.mx/" target="_blank"><img src="cbtis_logo.png" style="height: 75px;"></a>
+    <h1>Healthy Lifestyles</h1>
+    <div class="nav-actions">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#introduccion">Introduction</a></li>
+            </ul>
+        </nav>
+        <a href="portada.html" class="home-btn">Front Page</a>
+        <a href="paecprincipal.html" class="lang-btn">Volver a Español</a>
+    </div>
+</header>
+
+<div class="header-container">
+    <h1 id="inicio" style="font-size:100px;"><em style="font-size: 20px;">Healthy Lifestyles</em><br>Mindful Eating<br><br></h1>
+    <img src="img1.jpg" alt="header image" class="header-image">
+</div>
+<br><br><br><br>
+<div class="main-content">
+    <a id="topics"></a>
+    <h2 style="font-size: 40px;">Topics</h2>
+    <h3 style=" margin-bottom: 500px;"><ol>
+        <li><a href="#introduccion">What is Mindful Eating?</a></li>
+        <li><a href="#why-important">Why mindful eating is important</a></li>
+        <li><a href="#benefits">Benefits of mindful eating</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+        <li><a href="#sources">Sources</a></li>
+    </ol></h3>
+
+    <a id="introduccion"></a>
+    <h1 style="font-size: 50px;"><strong>What is Mindful Eating?</strong></h1>
+    <p>Mindful eating is a practice that involves paying full, intentional attention to the act of eating, using all the senses to connect with the experience of food and the body's signals. This approach, rooted in mindfulness meditation, is not a diet but a psychological and behavioral method. It focuses on being aware of thoughts, emotions, and physical sensations that arise before, during, and after eating, without judgment. Adopting mindful eating includes listening to hunger and fullness cues to guide decisions about when and how much to eat, often leading to better digestion and a healthier relationship with food.</p>
+
+    <div style="text-align: center;">
+        <img src="img2.jpg" alt="introduction image" style="height: 500px; text-align: center; margin-bottom:200px;">
+    </div>
+
+    <a id="why-important"></a>
+    <h1 style="font-size: 50px; text-align: left;"><strong>Why mindful eating is important</strong></h1>
+    <p>Mindful eating is more than a trend; it is a comprehensive way of approaching how we eat that positively impacts our physical, emotional and mental well-being. In a fast-paced society, this practice encourages slowing down, enjoying each moment, and rediscovering the simple pleasure of nourishing our bodies. By applying these habits daily, we can build a more satisfying and thoughtful relationship with food, savoring each bite.</p>
+    <p>Eating mindfully means pausing in the rush of life. It is an opportunity to slow down and enjoy an activity we do several times a day, which can increase feelings of happiness and calm. This practice also helps us choose healthier foods and enjoy our meals more fully, turning each meal into an act of self-care for both body and mind.</p>
+
+    <div style="text-align: center;">
+        <img src="img3.jpg" alt="why important" style="height: 500px; text-align: center; margin-bottom:200px;">
+    </div>
+
+    <a id="benefits"></a>
+    <h1 style="font-size: 50px; text-align: left;"><strong>Benefits of mindful eating</strong></h1>
+    <p>Practicing mindful eating offers multiple advantages for both physical and mental well-being:</p>
+    <ol style="font-size:30px;">
+        <li><strong>Improved digestion:</strong> Eating slowly and chewing properly helps the body absorb nutrients better and reduces digestive discomfort.</li>
+        <li><strong>Healthy weight management:</strong> By tuning into hunger and fullness signals, you can avoid overeating and maintain a healthy weight without strict diets.</li>
+        <li><strong>Development of better habits:</strong> Mindfulness helps you choose healthier options and reflect on your intake, increasing the likelihood of nutritious choices.</li>
+        <li><strong>Stress reduction:</strong> Mindful eating can be relaxing; taking time to enjoy food decreases stress and promotes calm.</li>
+        <li><strong>Greater enjoyment of food:</strong> Fully experiencing taste, texture and aroma makes meals more pleasurable and satisfying.</li>
+    </ol>
+
+    <div style="text-align: center;">
+        <img src="img4.png" alt="benefits image" style="height: 500px; text-align: center; margin-bottom:200px;">
+    </div>
+
+    <a id="conclusion"></a>
+    <h1 style="font-size: 50px; text-align: left;"><strong>Conclusion</strong></h1>
+    <p>In essence, mindful eating is a powerful, practical philosophy that invites us to redefine our relationship with food. It is not about temporary diets or strict rules, but about being fully present while eating. This holistic practice can:</p>
+    <ol style="font-size:30px;">
+        <li><strong>Improve physical health:</strong> Enhance digestion, support healthy weight maintenance by listening to internal hunger and satiety cues, and encourage more nutritious food choices.</li>
+        <li><strong>Nurture emotional and mental well-being:</strong> Turn meals into moments of self-care that reduce stress, promote calm, and increase enjoyment and satisfaction in daily life.</li>
+    </ol>
+    <p>By slowing down, savoring the moment and tuning into our bodies, we transform a biological need into a daily opportunity for holistic well-being. Ultimately, mindful eating helps us live a more deliberate, healthy, and joyful life—one mindful bite at a time.</p>
+
+    <div style="text-align: center;">
+        <img src="img5.png" alt="conclusion image" style="height: 500px; text-align: center; margin-bottom:200px;">
+    </div>
+
+    <a id="sources"></a>
+    <h1 style="font-size: 40px; text-align: center;">Sources</h1>
+    <p>
+    <em>What is Mindful Eating?</em> (n.d.). Quirónsalud Blogs. https://www.quironsalud.com/blogs/es/objetivo-peso-saludable/alimentacion-consciente-mindful-eating
+    <br><br>
+    Alemana, C. C. (2023, November 14). What is mindful eating? <em>Clínica Alemana.</em> https://www.clinicaalemana.cl/articulos/detalle/2022/que-es-el-mindful-eating-o-alimentacion-consciente
+    <br><br>
+    <em>The art of mindful eating: Nourishing body and soul.</em> (n.d.). Sanitas Medical Centers. https://www.mysanitas.com/es/blog/el-arte-de-comer-conscientemente-nutrir-el-cuerpo-y-el-alma
+    </p>
+
+</div>
+
+<footer></footer>
+<a href="formulario.html" class="floating-btn" aria-label="Formulario">✉️</a>
+</body>
+</html>
